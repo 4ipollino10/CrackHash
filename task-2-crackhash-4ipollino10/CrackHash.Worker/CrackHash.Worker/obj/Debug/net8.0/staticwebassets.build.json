@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "se8Vkx1+CPWMvEG6k2jmrkwuCdwp9vp7ZKrqP9CBGAc=",
+  "Source": "CrackHash.Worker",
+  "BasePath": "_content/CrackHash.Worker",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

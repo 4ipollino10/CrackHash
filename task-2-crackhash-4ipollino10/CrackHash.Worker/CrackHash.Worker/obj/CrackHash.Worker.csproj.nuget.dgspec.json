@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Timur\\Desktop\\ris\\task-2-crackhash-4ipollino10\\CrackHash.Worker\\CrackHash.Worker\\CrackHash.Worker.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Timur\\Desktop\\ris\\task-2-crackhash-4ipollino10\\CrackHash.Common\\CrackHash.Common\\CrackHash.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Timur\\Desktop\\ris\\task-2-crackhash-4ipollino10\\CrackHash.Common\\CrackHash.Common\\CrackHash.Common.csproj",
+        "projectName": "CrackHash.Common",
+        "projectPath": "C:\\Users\\Timur\\Desktop\\ris\\task-2-crackhash-4ipollino10\\CrackHash.Common\\CrackHash.Common\\CrackHash.Common.csproj",
+        "packagesPath": "C:\\Users\\Timur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Timur\\Desktop\\ris\\task-2-crackhash-4ipollino10\\CrackHash.Common\\CrackHash.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Timur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Timur\\Desktop\\ris\\task-2-crackhash-4ipollino10\\CrackHash.Worker\\CrackHash.Worker\\CrackHash.Worker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Timur\\Desktop\\ris\\task-2-crackhash-4ipollino10\\CrackHash.Worker\\CrackHash.Worker\\CrackHash.Worker.csproj",
+        "projectName": "CrackHash.Worker",
+        "projectPath": "C:\\Users\\Timur\\Desktop\\ris\\task-2-crackhash-4ipollino10\\CrackHash.Worker\\CrackHash.Worker\\CrackHash.Worker.csproj",
+        "packagesPath": "C:\\Users\\Timur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Timur\\Desktop\\ris\\task-2-crackhash-4ipollino10\\CrackHash.Worker\\CrackHash.Worker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Timur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Timur\\Desktop\\ris\\task-2-crackhash-4ipollino10\\CrackHash.Common\\CrackHash.Common\\CrackHash.Common.csproj": {
+                "projectPath": "C:\\Users\\Timur\\Desktop\\ris\\task-2-crackhash-4ipollino10\\CrackHash.Common\\CrackHash.Common\\CrackHash.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Combinatorics": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.2.1-develop.1716, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

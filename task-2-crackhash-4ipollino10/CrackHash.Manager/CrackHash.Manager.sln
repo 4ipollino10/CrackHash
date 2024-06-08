@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrackHash.Manager", "CrackHash.Manager\CrackHash.Manager.csproj", "{BD1368DD-2BF9-4E4F-BBB4-A1BE32C355EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrackHash.Common", "..\CrackHash.Common\CrackHash.Common\CrackHash.Common.csproj", "{4D2EFC7B-37F8-4B02-BD58-7668582CBA7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD1368DD-2BF9-4E4F-BBB4-A1BE32C355EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1368DD-2BF9-4E4F-BBB4-A1BE32C355EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1368DD-2BF9-4E4F-BBB4-A1BE32C355EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1368DD-2BF9-4E4F-BBB4-A1BE32C355EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D2EFC7B-37F8-4B02-BD58-7668582CBA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D2EFC7B-37F8-4B02-BD58-7668582CBA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D2EFC7B-37F8-4B02-BD58-7668582CBA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D2EFC7B-37F8-4B02-BD58-7668582CBA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+C:\Users\Timur\Desktop\ris\task-2-crackhash-4ipollino10\CrackHash.Common\CrackHash.Common\bin\Debug\net8.0\CrackHash.Common.deps.json
+C:\Users\Timur\Desktop\ris\task-2-crackhash-4ipollino10\CrackHash.Common\CrackHash.Common\bin\Debug\net8.0\CrackHash.Common.dll
+C:\Users\Timur\Desktop\ris\task-2-crackhash-4ipollino10\CrackHash.Common\CrackHash.Common\bin\Debug\net8.0\CrackHash.Common.pdb
+C:\Users\Timur\Desktop\ris\task-2-crackhash-4ipollino10\CrackHash.Common\CrackHash.Common\obj\Debug\net8.0\CrackHash.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Timur\Desktop\ris\task-2-crackhash-4ipollino10\CrackHash.Common\CrackHash.Common\obj\Debug\net8.0\CrackHash.Common.AssemblyInfoInputs.cache
+C:\Users\Timur\Desktop\ris\task-2-crackhash-4ipollino10\CrackHash.Common\CrackHash.Common\obj\Debug\net8.0\CrackHash.Common.AssemblyInfo.cs
+C:\Users\Timur\Desktop\ris\task-2-crackhash-4ipollino10\CrackHash.Common\CrackHash.Common\obj\Debug\net8.0\CrackHash.Common.csproj.CoreCompileInputs.cache
+C:\Users\Timur\Desktop\ris\task-2-crackhash-4ipollino10\CrackHash.Common\CrackHash.Common\obj\Debug\net8.0\CrackHash.Common.dll
+C:\Users\Timur\Desktop\ris\task-2-crackhash-4ipollino10\CrackHash.Common\CrackHash.Common\obj\Debug\net8.0\refint\CrackHash.Common.dll
+C:\Users\Timur\Desktop\ris\task-2-crackhash-4ipollino10\CrackHash.Common\CrackHash.Common\obj\Debug\net8.0\CrackHash.Common.pdb
+C:\Users\Timur\Desktop\ris\task-2-crackhash-4ipollino10\CrackHash.Common\CrackHash.Common\obj\Debug\net8.0\ref\CrackHash.Common.dll

@@ -1,0 +1,70 @@
+version: '3'
+services:
+  rabbitmq:
+    image: rabbitmq:management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    networks:
+      - dev-network
+  worker:
+    image: worker
+    ports:
+      - "82-86:80"
+    networks:
+      - dev-network
+    deploy:
+      mode: replicated
+      replicas: 5
+  manager:
+    image: manager
+    ports:
+      - "81:8080"
+    networks:
+      - dev-network 
+  mongo_primary:
+    image: mongo:6
+    hostname: mongo_primary
+    container_name: mongo_primary
+    ports:
+      - "27017:27017"
+    entrypoint: [ "/usr/bin/mongod", "--replSet", "myReplicaSet", "--bind_ip_all"]
+    networks:
+      - dev-network
+  mongo_secondary1:
+    image: mongo:6
+    hostname: mongo_secondary1
+    container_name: mongo_secondary1
+    ports:
+      - "27018:27017"
+    entrypoint: [ "/usr/bin/mongod", "--replSet", "myReplicaSet", "--bind_ip_all"]
+    networks:
+      - dev-network
+  mongo_secondary2:
+    image: mongo:6
+    hostname: mongo_secondary2
+    container_name: mongo_secondary2
+    ports:
+      - "27019:27017"
+    entrypoint: [ "/usr/bin/mongod", "--replSet", "myReplicaSet", "--bind_ip_all"]
+    networks:
+      - dev-network
+  mongosetup:
+    image: mongo:6
+    depends_on:
+      - mongo_primary
+      - mongo_secondary1
+      - mongo_secondary2
+    volumes:
+      - ./scripts:/scripts
+    restart: "no"
+    entrypoint: [ "bash", "/scripts/mongo_setup.sh" ]
+    networks:
+      - dev-network
+networks:
+  dev-network:
+volumes:
+  rabbitmq_data:
